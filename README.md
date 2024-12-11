@@ -98,25 +98,29 @@ CREATE TABLE forecast_weather (
 
 ## Project Setup
 
-### 1. Directory Structure
+### 1. Clone Repository (On Windows)
+```powershell
+# Open PowerShell and navigate to desired location
+cd C:\Users\YourUsername\Documents  # or any preferred location
+# Clone the repository
+git clone https://github.com/Shanmukhi1920/ETL-MiniProject.git
+```
+### 2. Directory Setup in WSL
 ```bash
-# Create necessary directories
+# Create necessary directories in WSL
 mkdir -p ~/airflow/dags ~/airflow/src ~/airflow/temp ~/airflow/visualizations
-
-# Your project structure should look like this:
-airflow/
-├── dags/
-│   └── weather_dag.py
-├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│   └── visualize.py
-├── temp/
-└── visualizations/
 ```
 
-### 2. Environment Setup
+### 3. Copy Files from Windows to WSL
+```bash
+# Navigate to your Windows directory in WSL where you cloned the repo
+cd /mnt/c/Users/YourUsername/Documents/weather-etl
+
+# Copy files to respective directories in Airflow
+cp weather_dag.py ~/airflow/dags/
+cp src/extract.py src/transform.py src/load.py src/visualize.py ~/air
+``` 
+### 4. Environment Setup
 Open .bashrc file
 ```bash
 nano ~/.bashrc
@@ -133,7 +137,7 @@ Apply the changes:
 source ~/.bashrc
 ```
 
-### 3. Airflow Configuration
+### 5. Airflow Configuration
 ```bash
 # Set Airflow home
 export AIRFLOW_HOME=~/airflow
