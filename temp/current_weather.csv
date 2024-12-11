@@ -1,0 +1,4 @@
+city,timestamp,temperature,feels_like,temp_min,temp_max,pressure,humidity,weather_desc,wind_speed,wind_deg,clouds
+Chicago,2024-12-10 18:12:29,0.08,-4.6,-0.99,1.04,1015,69,overcast clouds,4.63,280,100
+New York,2024-12-10 18:08:28,8.88,5.94,7.19,10.05,1017,94,mist,5.66,50,100
+Austin,2024-12-10 18:16:42,10.91,9.39,9.69,11.78,1023,51,clear sky,4.63,340,0

@@ -1,0 +1,87 @@
+[2024-11-28T13:07:23.071-0600] {processor.py:186} INFO - Started process (PID=3174) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:07:23.072-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:07:23.076-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:07:23.075-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:07:23.080-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:07:23.077-0600] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/weather_dag.py", line 27
+    schedule_interval='@daily'
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-28T13:07:23.080-0600] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:07:23.099-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.040 seconds
+[2024-11-28T13:08:25.542-0600] {processor.py:186} INFO - Started process (PID=3254) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:08:25.544-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:08:25.545-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:08:25.545-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:08:25.548-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:08:25.547-0600] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/weather_dag.py", line 27
+    schedule_interval='@daily'
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-28T13:08:25.548-0600] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:08:25.564-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.025 seconds
+[2024-11-28T13:09:22.986-0600] {processor.py:186} INFO - Started process (PID=3314) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:09:22.988-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:09:22.990-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:09:22.990-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:09:22.992-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:09:22.991-0600] {dagbag.py:387} ERROR - Failed to import: /root/airflow/dags/weather_dag.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/root/airflow/dags/weather_dag.py", line 27
+    schedule_interval='@daily'
+                      
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-28T13:09:22.992-0600] {processor.py:927} WARNING - No viable dags retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:09:23.008-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.026 seconds
+[2024-11-28T13:44:48.885-0600] {processor.py:186} INFO - Started process (PID=3632) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:44:48.887-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:44:48.888-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:48.888-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:44:48.897-0600] {processor.py:925} INFO - DAG(s) 'weather_etl' retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:44:48.992-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:48.991-0600] {override.py:1911} INFO - Created Permission View: can edit on DAG:weather_etl
+[2024-11-28T13:44:49.003-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.003-0600] {override.py:1911} INFO - Created Permission View: can read on DAG:weather_etl
+[2024-11-28T13:44:49.011-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.011-0600] {override.py:1911} INFO - Created Permission View: can delete on DAG:weather_etl
+[2024-11-28T13:44:49.021-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.021-0600] {override.py:1911} INFO - Created Permission View: can create on DAG Run:weather_etl
+[2024-11-28T13:44:49.027-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.027-0600] {override.py:1911} INFO - Created Permission View: can read on DAG Run:weather_etl
+[2024-11-28T13:44:49.033-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.033-0600] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:weather_etl
+[2024-11-28T13:44:49.039-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.039-0600] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:weather_etl
+[2024-11-28T13:44:49.040-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.039-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T13:44:49.048-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.048-0600] {dag.py:3262} INFO - Creating ORM DAG for weather_etl
+[2024-11-28T13:44:49.053-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:44:49.053-0600] {dag.py:4180} INFO - Setting next_dagrun for weather_etl to 2024-11-28 00:00:00+00:00, run_after=2024-11-29 00:00:00+00:00
+[2024-11-28T13:44:49.074-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.194 seconds
+[2024-11-28T13:45:46.517-0600] {processor.py:186} INFO - Started process (PID=3718) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:45:46.519-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:45:46.520-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:45:46.520-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:45:46.528-0600] {processor.py:925} INFO - DAG(s) 'weather_etl' retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:45:46.540-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:45:46.540-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T13:45:46.555-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:45:46.555-0600] {dag.py:4180} INFO - Setting next_dagrun for weather_etl to 2024-11-28 00:00:00+00:00, run_after=2024-11-29 00:00:00+00:00
+[2024-11-28T13:45:46.572-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.058 seconds
+[2024-11-28T13:46:39.004-0600] {processor.py:186} INFO - Started process (PID=3777) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:46:39.006-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:46:39.007-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:46:39.007-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:46:39.015-0600] {processor.py:925} INFO - DAG(s) 'weather_etl' retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:46:39.026-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:46:39.026-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T13:46:39.040-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:46:39.040-0600] {dag.py:4180} INFO - Setting next_dagrun for weather_etl to 2024-11-28 00:00:00+00:00, run_after=2024-11-29 00:00:00+00:00
+[2024-11-28T13:46:39.058-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.059 seconds
+[2024-11-28T13:47:33.008-0600] {processor.py:186} INFO - Started process (PID=3844) to work on /root/airflow/dags/weather_dag.py
+[2024-11-28T13:47:33.009-0600] {processor.py:914} INFO - Processing file /root/airflow/dags/weather_dag.py for tasks to queue
+[2024-11-28T13:47:33.011-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:47:33.011-0600] {dagbag.py:588} INFO - Filling up the DagBag from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:47:33.017-0600] {processor.py:925} INFO - DAG(s) 'weather_etl' retrieved from /root/airflow/dags/weather_dag.py
+[2024-11-28T13:47:33.027-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:47:33.027-0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T13:47:33.039-0600] {logging_mixin.py:190} INFO - [2024-11-28T13:47:33.039-0600] {dag.py:4180} INFO - Setting next_dagrun for weather_etl to 2024-11-28 00:00:00+00:00, run_after=2024-11-29 00:00:00+00:00
+[2024-11-28T13:47:33.055-0600] {processor.py:208} INFO - Processing /root/airflow/dags/weather_dag.py took 0.051 seconds
