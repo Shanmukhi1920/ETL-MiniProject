@@ -1,7 +1,6 @@
 # Ignore logs and temp directories
 logs/
 temp/
-visualizations/
 
 # Database files
 airflow.db
