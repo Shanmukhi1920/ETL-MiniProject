@@ -1,5 +1,5 @@
 ## Overview
-This project implements an ETL (Extract, Transform, Load) pipeline for weather data using OpenWeather API. It collects current weather data and 5-day forecasts for specified cities, processes the data, and stores it in a PostgreSQL database. The pipeline is orchestrated using Apache Airflow.
+This project implements an ETL (Extract, Transform, Load) pipeline for weather data using OpenWeather API. It collects current weather data and 5-day forecasts for specified cities, processes the data, validates and stores it in a PostgreSQL database. The pipeline is orchestrated using Apache Airflow.
 
 ## System Setup
 
