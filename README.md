@@ -118,7 +118,7 @@ cd /mnt/c/Users/YourUsername/Documents/weather-etl
 
 # Copy files to respective directories in Airflow
 cp weather_dag.py ~/airflow/dags/
-cp src/extract.py src/transform.py src/load.py src/visualize.py ~/air
+cp src/extract.py src/transform.py src/load.py src/validate.py src/visualize.py ~/src
 ``` 
 ### 4. Environment Setup
 Open .bashrc file
