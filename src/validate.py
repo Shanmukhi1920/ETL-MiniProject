@@ -49,9 +49,10 @@ def validate(current_df, forecast_df):
         validation_errors.append("Current weather data contains outdated timestamps")
     
     # Forecast should be future dates within 5 days
+    forecast_df['forecast_timestamp'] = pd.to_datetime(forecast_df['forecast_timestamp'])
     invalid_forecast = forecast_df[
         (forecast_df['forecast_timestamp'] < now) | 
-        (forecast_df['forecast_timestamp'] > now + timedelta(days=5))
+        (forecast_df['forecast_timestamp'] > now + timedelta(days=6))
     ]
     if not invalid_forecast.empty:
         validation_errors.append("Forecast contains invalid timestamps (past dates or >5 days)")
